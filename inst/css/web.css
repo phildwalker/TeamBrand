@@ -1,0 +1,301 @@
+
+.watermark {
+  opacity: 0.5;
+  position: sticky;
+  top: 85%;
+  text-align: center;
+  font-size: 14px;
+  color:  #CC0000;
+}
+
+/* for footers */
+
+.fixed-footer {
+  background-color:#00A2B2;
+  font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif;
+  color:white;
+  position:fixed;
+  bottom:0;
+  left:0;
+  max-width:100%;
+  padding:15px;
+  z-index:9999;
+  font-size:small;
+
+}
+
+.footer{
+  font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif;
+}
+
+
+.panel-primary>.panel-heading {
+    background-color: #f1bd51;
+    color: black;
+}
+
+.panel-title{
+  font-weight: bold;
+}
+
+.panel-body {
+    background-color: #00a2b2;
+    color: white;
+}
+
+.panel-primary>.panel-heading, .panel-body, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border: none;
+}
+
+.bottom0.panel-group  {
+margin-bottom: 0;
+}
+
+.notifications-scroll-area {
+  max-height: 200px;
+	position: relative;
+	overflow: auto;
+}
+
+
+
+/* Nav Bar Stuff */
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 35px;
+}
+
+.navbar, .distill-site-nav {
+	background-color: #00A2B2;
+	background-image: none;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a, .distill-site-nav a {
+
+    color: white;
+	font-size: 19px;
+	text-decoration: none;
+}
+
+.navbar-default .navbar-link:hover, .navbar-default .navbar-link:focus {
+    color: white;
+}
+
+.navbar-default .navbar-nav{
+  margin-left:35px;
+}
+
+.navbar-default .navbar-right{
+  margin-left:0px;
+}
+
+.navbar-default .navbar-brand, .distill-site-header .title {
+    color: white;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-link {
+	color: white;
+	background-color: #00A2B2;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .distill-site-nav a:hover, .distill-site-nav a:focus {
+    color: white;
+    background-color: #012169;
+    text-decoration: none;
+}
+
+
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    font-weight: bold;
+    color: #012169;
+    background-color: white;
+}
+
+.dropdown-menu>li>a {
+    color: #00A2B2;
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>.open>a:hover{
+    background-color: transparent;
+    color: #00A2B2;
+}
+
+.navbar-default .navbar-nav>.open>a:focus {
+  background-color: transparent;
+    color: #00A2B2;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+
+    color: white;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #012169;
+
+
+    color: white;
+}
+
+.navbar-default {
+    background: #00A2B2 url(https://www.conehealth.com/imgs/icons/logo-icon-white.svg) no-repeat left;
+    background-size: 41px 30px;
+    background-origin: content-box, padding-box;
+    padding: 0 20px 0 20px;
+}
+
+.main-container {
+padding-top:inherit;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: white;
+    text-decoration: none;
+    background-color: #012169;
+}
+
+
+.navbar-brand {
+    padding: 17px 10px 10px;
+    line-height: 20px;
+    height: 55px;
+    margin-left: -50px;
+}
+
+
+.nav>li>a {
+    padding-top: 17px;
+    padding-bottom: 13px;
+    line-height: 23px;
+    height: 55px;
+}
+
+
+.nav-dropdown-content a {
+    color: #012169;
+}
+.nav-dropdown .nav-dropbtn{
+  margin-top: 0;
+  line-height: 12px;
+}
+
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{
+	background-color: #00A2B2
+}
+
+/* distill */
+
+.publishedDate {
+  font-size:14px ;
+}
+
+.posts-list .post-preview h2{
+  font-size:18px  !important;
+}
+
+.posts-sidebar {
+  font-size:14px  !important;
+}
+
+.distill-site-header .logo img {
+  display: inline-block;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 30px;
+  max-height: 41px;
+  height: 25.2px;
+  margin-top: -2px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+.distill-site-header a.logo:hover {
+  background-color: #00A2B2;
+}
+
+.posts-list .description h2, .posts-list .description p {
+  font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif !important;
+}
+
+.posts-list .post-preview{
+  border-top:1px solid #f1bd51 !important;
+  border-bottom:0 !important;
+}
+
+.posts-list .posts-list-caption{
+  font-weight: revert !important;
+}
+
+.distill-site-nav {
+    display: table;
+}
+
+.headroom{
+ position: sticky;
+}
+
+d-title {
+    padding-top: 15px;
+}
+
+d-article {
+  font-size: 16px;
+}
+
+d-article iframe {
+  border: none;
+}
+
+d-article h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.25em;
+    margin: 2rem 0 1.5rem 0;
+    border-bottom: 1px solid rgba(255,165,0, 0.7);
+    padding-bottom: 1rem;
+}
+
+
+.active {
+  display:block;
+}
+
+
+/* jump to top button */
+#jumpToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 30px;
+  font-family: Times New Roman;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: #00A2B2;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  padding-bottom: 0;
+  padding-top: 5px;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.7;
+}
+
+#jumpToTop:hover {
+  background-color: #00205C;
+  transition: all 0.3s ease-in-out;
+  padding-top:3px;
+  padding-bottom:2px;
+}
+/* add to body <button onclick="topFunction()" id="jumpToTop" title="Go to top">^</button> */

@@ -33,7 +33,7 @@ Colors ...
   #C00000 >> red
   
   
-The goal of eastyle is to apply the Cone Health Enterprise Analytics style and identity guidelines.
+The goal of team_brand is to apply the brand style and identity guidelines.
 This includes standards for ggplot, highcharter, datatable, kable, and reactable.
 This also includes standard CSS documents for use with R Markdown generated webpages.
 
@@ -47,7 +47,7 @@ remotes::install_github("phildwalker/team_brand")
 
 ```{r}
 library(ggplot2)
-library(eastyle)
+library(team_brand)
 
 ggplot(mtcars, aes(mpg, disp))+
   geom_point()+
