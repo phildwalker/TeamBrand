@@ -1,0 +1,59 @@
+---
+output: github_document
+always_allow_html: true
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# team brands
+
+# tanger_styles
+r package to help with viz at tanger
+
+
+For the team >> Enterprise Insights and Analytics
+
+
+Font >> https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Roboto:300,400,500,900
+
+ticker >> SKT
+
+Colors ...
+  #000000 >> black,
+  #464646 >> dark grey,
+  #C00000 >> red
+  
+  
+The goal of eastyle is to apply the Cone Health Enterprise Analytics style and identity guidelines.
+This includes standards for ggplot, highcharter, datatable, kable, and reactable.
+This also includes standard CSS documents for use with R Markdown generated webpages.
+
+## Installation
+
+```r
+remotes::install_github("phildwalker/team_brand")
+```
+
+## ggplot2
+
+```{r}
+library(ggplot2)
+library(eastyle)
+
+ggplot(mtcars, aes(mpg, disp))+
+  geom_point()+
+  labs(
+    title = "A Nice ggplot2 Graph"
+  )
+```
+
+

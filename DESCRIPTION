@@ -1,0 +1,36 @@
+Package: team_brand
+Title: Uniform Application of Team Style and Brand Identity Guidlines
+Version: 0.0.1
+Authors@R: c(person(given = "Philip",
+           family = "Walker",
+           role = c("aut", "cre"),
+           email = "philwalker2012@gmail.com"))
+    )
+Description: Provides ready made templates and helper functions to apply 
+    the team styles to R generated figures, tables, and webpages.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Imports: 
+    ggplot2,
+    gridExtra,
+    grid,
+    conflicted,
+    grDevices,
+    knitr,
+    kableExtra,
+    glue,
+    highcharter,
+    DT,
+    sysfonts,
+    showtext,
+    reactable
+Suggests:
+    htmltools,
+    ggtext,
+    rstudioapi,
+    scales
