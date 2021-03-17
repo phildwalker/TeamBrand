@@ -1,9 +1,9 @@
-#' Set Cone Defaults On
+#' Set Brand Defaults On
 #' @description Turns on all of the default themes for the EA styleguide
 #' @export
 set_brand_defaults <- function(){
 
-  
+  tanger_dark_internal = "#BD2326"
 
   ggplot2::update_geom_defaults("bar", list(fill = tanger_dark_internal))
   ggplot2::update_geom_defaults("col", list(fill = tanger_dark_internal))

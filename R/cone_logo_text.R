@@ -2,8 +2,7 @@
 #'
 #' @description Creates a grid object with Cone Health Text Logo
 #' @param background Background color of the logo text. Defaults to
-#'      \code{#F9F9F9}, the default background color of
-#'      \code{eastyle::theme_cone} and \code{eastyle::theme_cone_facet}
+#'      \code{#F9F9F9}, the default background color of charts
 #'
 #' @md
 #' @export

@@ -5,5 +5,5 @@
 #' @export
 show_cols <- function(){
   requireNamespace('scales')
-  scales::show_col(team_brand::palette_main)
+  scales::show_col(TeamBrand::palette_main)
 }

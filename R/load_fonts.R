@@ -5,7 +5,7 @@ already_loaded = function(family)
 }
 
 
-#' Load Fonts for the 'eastyle' Package
+#' Load Fonts for the 'teambrand' Package
 #'
 #' This function loads fonts that will be used by the \pkg{eastyle} package. Based on the same function from \pkg{showtextdb} by Yixuan Qiu https://statr.me/
 #'
@@ -27,10 +27,10 @@ load_default_font = function()
 
   ## Add font to sysfonts
   sysfonts::font_add(family = "Montserrat",
-                     regular = system.file("fonts", "Montserrat-Regular.ttf", package = "team_brand"),
-                     italic = system.file("fonts", "Montserrat-Italic.ttf", package = "team_brand"),
-                     bold = system.file("fonts", "Montserrat-Bold.ttf", package = "team_brand"),
-                     bolditalic = system.file("fonts", "Montserrat-BoldItalic.ttf", package = "team_brand")
+                     regular = system.file("fonts", "Montserrat-Regular.ttf", package = "TeamBrand"),
+                     italic = system.file("fonts", "Montserrat-Italic.ttf", package = "TeamBrand"),
+                     bold = system.file("fonts", "Montserrat-Bold.ttf", package = "TeamBrand"),
+                     bolditalic = system.file("fonts", "Montserrat-BoldItalic.ttf", package = "TeamBrand")
                      # regular = here::here('inst', "fonts", "Montserrat-Regular.ttf"),
                      # italic = here::here('inst', "fonts", "Montserrat-Italic.ttf"),
                      # bold = here::here('inst', "fonts", "Montserrat-Bold.ttf"),

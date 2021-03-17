@@ -1,4 +1,4 @@
-#' Applying Cone Health css Files
+#' Applying  css Files
 #' @description This function is designed to pull css files from the
 #'     \pkg{eastyle} package. Css files are available for shiny apps, websites,
 #'     rmarkdown reports, and more. These style sheets are intended to keep with

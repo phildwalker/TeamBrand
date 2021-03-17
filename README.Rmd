@@ -40,14 +40,14 @@ This also includes standard CSS documents for use with R Markdown generated webp
 ## Installation
 
 ```r
-remotes::install_github("phildwalker/team_brand")
+remotes::install_github("phildwalker/TeamBrand")
 ```
 
 ## ggplot2
 
 ```{r}
 library(ggplot2)
-library(team_brand)
+library(TeamBrand)
 
 ggplot(mtcars, aes(mpg, disp))+
   geom_point()+

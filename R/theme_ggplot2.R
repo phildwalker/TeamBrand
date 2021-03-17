@@ -1,4 +1,4 @@
-#' Cone Theme Which is Set to the Default
+#' Brand Theme Which is Set to the Default
 #' @description This function creates the default theme for Cone Graphs
 #' @family EA ggplot themes
 #' @importFrom ggplot2 %+replace%

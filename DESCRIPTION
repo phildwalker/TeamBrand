@@ -1,11 +1,10 @@
-Package: team_brand
+Package: TeamBrand
 Title: Uniform Application of Team Style and Brand Identity Guidlines
 Version: 0.0.1
 Authors@R: c(person(given = "Philip",
            family = "Walker",
            role = c("aut", "cre"),
            email = "philwalker2012@gmail.com"))
-    )
 Description: Provides ready made templates and helper functions to apply 
     the team styles to R generated figures, tables, and webpages.
 License: MIT + file LICENSE

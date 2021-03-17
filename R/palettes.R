@@ -15,7 +15,6 @@
 #' @description This function creates the output vector for the colors into hex codes
 #' @param ... Character names of pdw_colors
 #' @export
-#'
 
 # drsimonj corporate colors
 # using https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2 as template
@@ -44,8 +43,8 @@ brand_cols <- function(...) {
 #'
 
 brand_palettes <- list(
-  'main' = pdw_cols("red", "black", "grey"),
-  'mixed' = pdw_cols("black", "red", "grey")
+  'main' = brand_cols("red", "black", "grey"),
+  'mixed' = brand_cols("black", "red", "grey")
 )
 
 
