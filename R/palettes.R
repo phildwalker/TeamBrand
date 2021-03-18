@@ -11,10 +11,7 @@
 #'
 "tanger_colors_pal1"
 
-#' Function to extract pdw colors as hex codes
-#' @description This function creates the output vector for the colors into hex codes
-#' @param ... Character names of pdw_colors
-#' @export
+
 
 # drsimonj corporate colors
 # using https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2 as template
@@ -24,6 +21,10 @@ palette_main <-c(
   grey = "#464646"
 )
 
+#' Function to extract pdw colors as hex codes
+#' @description This function creates the output vector for the colors into hex codes
+#' @param ... Character names of pdw_colors
+#' @export
 brand_cols <- function(...) {
   cols <- c(...)
   
@@ -34,6 +35,13 @@ brand_cols <- function(...) {
 }
 
 
+
+
+brand_palettes <- list(
+  'main' = brand_cols("red", "black", "grey"),
+  'mixed' = brand_cols("black", "red", "grey")
+)
+
 #' Return function to interpolate a brand color palette
 #' @description This function creates a couple of palettes that could be used when plotting
 #' @param palette Character name of palette in pdw_palettes
@@ -41,13 +49,6 @@ brand_cols <- function(...) {
 #' @param ... Additional arguments to pass to colorRampPalette()
 #' @export
 #'
-
-brand_palettes <- list(
-  'main' = brand_cols("red", "black", "grey"),
-  'mixed' = brand_cols("black", "red", "grey")
-)
-
-
 brand_pal <- function(palette = "main", reverse = FALSE, ...) {
   pal <- brand_palettes[[palette]]
   

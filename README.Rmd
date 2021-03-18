@@ -1,6 +1,8 @@
 ---
 output: github_document
 always_allow_html: true
+editor_options: 
+  chunk_output_type: console
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -49,10 +51,13 @@ remotes::install_github("phildwalker/TeamBrand")
 library(ggplot2)
 library(TeamBrand)
 
-ggplot(mtcars, aes(mpg, disp))+
+ggplot(mtcars, aes(mpg, disp, color = factor(cyl)))+
   geom_point()+
+  scale_color_brand(palette = "mixed")+
   labs(
-    title = "A Nice ggplot2 Graph"
+    title = "A Nice ggplot2 Graph",
+    subtitle = "Including a subtitle", 
+    caption = "Including a fun caption about the dataset [mtcars]"
   )
 ```
 

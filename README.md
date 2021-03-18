@@ -34,11 +34,20 @@ remotes::install_github("phildwalker/TeamBrand")
 library(ggplot2)
 library(TeamBrand)
 #> Loading required namespace: sysfonts
+#> 
+#> Attaching package: 'TeamBrand'
+#> The following objects are masked from 'package:ggplot2':
+#> 
+#>     geom_bar, geom_col, geom_jitter, geom_line, geom_path, geom_point,
+#>     geom_step, geom_text
 
-ggplot(mtcars, aes(mpg, disp))+
+ggplot(mtcars, aes(mpg, disp, color = factor(cyl)))+
   geom_point()+
+  scale_color_brand(palette = "mixed")+
   labs(
-    title = "A Nice ggplot2 Graph"
+    title = "A Nice ggplot2 Graph",
+    subtitle = "Including a subtitle", 
+    caption = "Including a fun caption about the dataset [mtcars]"
   )
 ```
 

@@ -27,12 +27,12 @@
                               winner = "TeamBrand", quiet = TRUE)
   conflicted::conflict_prefer(name = "geom_step",
                               winner = "TeamBrand", quiet = TRUE)
-  conflicted::conflict_prefer(name = "scale_color_discrete",
-                              winner = "TeamBrand", quiet = TRUE)
-  conflicted::conflict_prefer(name = "scale_colour_discrete",
-                              winner = "TeamBrand", quiet = TRUE)
-  conflicted::conflict_prefer(name = "scale_fill_discrete",
-                              winner = "TeamBrand", quiet = TRUE)
+  # conflicted::conflict_prefer(name = "scale_color_discrete",
+  #                             winner = "TeamBrand", quiet = TRUE)
+  # conflicted::conflict_prefer(name = "scale_colour_discrete",
+  #                             winner = "TeamBrand", quiet = TRUE)
+  # conflicted::conflict_prefer(name = "scale_fill_discrete",
+  #                             winner = "TeamBrand", quiet = TRUE)
 
   conflicted::conflict_prefer(name = "kable",
                               winner = "TeamBrand", quiet = TRUE)
