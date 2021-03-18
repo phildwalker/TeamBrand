@@ -45,7 +45,7 @@ This also includes standard CSS documents for use with R Markdown generated webp
 remotes::install_github("phildwalker/TeamBrand")
 ```
 
-## ggplot2
+## ggplot2: points
 
 ```{r}
 library(ggplot2)
@@ -56,6 +56,25 @@ ggplot(mtcars, aes(mpg, disp, color = factor(cyl)))+
   scale_color_brand(palette = "mixed")+
   labs(
     title = "A Nice ggplot2 Graph",
+    subtitle = "Including a subtitle", 
+    caption = "Including a fun caption about the dataset [mtcars]"
+  )
+```
+
+
+## ggplot2: bar
+
+```{r}
+library(tidyverse)
+library(TeamBrand)
+
+mtcars %>% 
+  mutate(cyl = as.character(cyl)) %>% 
+  ggplot(aes(cyl, fill = cyl))+
+  geom_bar()+
+  scale_fill_brand(palette = "main")+
+  labs(
+    title = "Nice ggplot2 bars",
     subtitle = "Including a subtitle", 
     caption = "Including a fun caption about the dataset [mtcars]"
   )
